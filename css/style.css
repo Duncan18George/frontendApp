@@ -1,0 +1,604 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+ .ps4{
+  margin-top: 200px;
+  width: 80PX;
+  padding: 3px;
+ }
+ .ps5{
+  width: 70px;
+  padding: 3px;
+ }
+ .steam{
+  width: 70px;
+  justify-content:space-between ;
+  padding: 3px;
+ }
+ .xbox{
+  padding: 3px;
+ }
+  .champ{
+    color: white;
+    font-family: 'Bruno Ace';
+    font-size: 35px;
+    margin-top: 100px;
+    margin-left: 18px;
+   
+  }
+  
+  
+
+  body {
+    background-image: url(/images/Chunli.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    
+
+    
+
+  }
+  nav {
+    border-radius: 50px;
+    margin-top: 75px;
+    background: #7A7878;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  nav .mainMenu {
+    display: flex;
+    list-style: none;
+    
+  }
+  nav .mainMenu li a {
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    transition: 0.2s ease;
+    font-size: small;
+  }
+  nav .mainMenu li a:hover {
+    background: #0ac9a0;;
+  }
+  nav .openMenu {
+    font-size: 2rem;
+    margin: 20px;
+    display: none;
+    cursor: pointer;
+  }
+  nav .mainMenu .closeMenu,
+  .icons i {
+    font-size: 2rem;
+    display: none;
+    cursor: pointer;
+  }
+  .fa-facebook:hover {
+    color: rgb(0, 110, 255);
+  }
+  .fa-twitter:hover {
+    color: rgb(86, 154, 243);
+  }
+  .fa-instagram:hover {
+    color: rgb(255, 0, 191);
+  }
+  .fa-github:hover {
+    color: rgb(255, 123, 0);
+  }
+  nav .logo {
+    margin: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  @media (max-width: 768px) {
+    nav .mainMenu {
+      height: 100vh;
+      position: fixed;
+      top: 0px;
+      right: 0px;
+      left: 0px;
+      z-index: 10;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background:#7A7878;
+      transition: top 1s ease 0s;
+      display: none;
+    }
+
+    section.aboutUs{
+      justify-content: center;
+      position: flex;
+      align-items: center;
+    }
+
+    nav{
+   justify-content: center;
+      
+    }
+    nav .mainMenu .closeMenu {
+      display: block;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+    nav .openMenu {
+      display: block;
+    }
+    nav .mainMenu li a:hover {
+      background: none;
+      color: rgb(255, 123, 0);
+    }
+    .icons i {
+      display: inline-block;
+      padding: 12px;
+    }
+   
+  
+  }
+  .aboutUs{
+    width: 100%;
+    margin-top: 8rem;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  background-image: url(/images/Frame\ 1.png);
+    flex-direction: column;
+    color: white;
+    background-repeat: no-repeat
+  }
+
+  .aboutUs h2{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: rem;
+  }
+  
+  .container{
+    display: flex;
+    width: 100%;
+
+  }
+  .container img{
+    width: 100%;
+    height: 100px;
+    
+
+  }
+
+  .image img{
+    width: 100%;
+   height: 100px;
+
+  }
+
+  .content{
+    margin-top: 500px;
+    width: 40%;
+    margin-left: 2rem;
+    color: white;
+
+  }
+
+  .content p{
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+
+  .content button{
+    display: block;
+    padding: 10px 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+  }
+
+  .content button a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #0ac9a0;
+  }
+  
+  
+  .featureServices{
+    display: flex;
+    justify-content: center;
+  }
+.head{
+ margin-left: 500px;
+ margin-bottom: 20px;
+}
+  .item{
+    width: 40.3%;
+    background-color: #b3afaf;
+    margin-right: 10px;
+    align-items: center;
+  }
+.item img{
+  width: 100%;
+}
+
+.item p{
+text-align: center;
+margin-top: 10px;
+
+}
+
+.item button{
+  display: block;
+  padding: 10px 10px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+.item button a{
+  text-decoration: none;
+    font-size: 13px;
+    color: #0ac9a0;
+}
+
+.contact{
+height: 500px;
+  width: 100%;
+ margin: 0 auto;
+ padding-top: 2.5rem;
+ background-color: black;
+}
+.con{
+  color: white;
+  margin-left: 300px;
+  margin-bottom: 30px;
+}
+
+.contact .content{
+  display: flex;
+  width: 100%;
+}
+
+.content .form{
+  width: 60%;
+}
+
+.content .image{
+  width: 200px;
+  height: 140px;
+  margin-left: 70px;
+}
+
+.form form{
+  display: flex;
+  flex-direction: column;
+  margin-right: 2rem;
+
+}
+
+form input{
+  margin-bottom: 1rem;
+  display: block;
+  border: none;
+  height: 3rem;
+  border-radius: 5px;
+  padding-left: 1rem;
+}
+
+form textarea{
+  border-radius: 5px;
+  margin-bottom: 1rem;
+
+}
+
+::placeholder{
+  color: rgb(53, 51, 51);
+  padding-left: 1rem;
+}
+
+@media (max-width: 300px) {
+  .services{
+    z-index: 10;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+ 
+}
+.services{
+  position: relative;
+  height: 1500px ;
+  
+}
+
+.v36_47 {
+  width: 100%;
+  height: 1313px;
+  background-image: url("/images/Rectangle\ 69.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  
+ 
+}
+.v93_118 {
+  width: 100%;
+  height: 100%;
+  background: rgba(255,251,251,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v93_114 {
+  width: 362px;
+  height: 420px;
+  background: rgba(217,217,217,1);
+  opacity: 1;
+  position: absolute;
+  top: 290px;
+  left: 95px;
+  overflow: hidden;
+}
+.v93_106 {
+  width: 703px;
+  color: rgba(10,10,10,1);
+  position: absolute;
+  top: 120px;
+  left: 107px;
+  font-family: Bruno Ace;
+  font-weight: Regular;
+  font-size: 64px;
+  opacity: 1;
+  text-align: left;
+}
+.v93_107 {
+  width: 284px;
+  height: 191px;
+  background: rgba(217,217,217,1);
+  background-image:url(/images/Rectangle\ 68.png);
+  opacity: 1;
+  position: absolute;
+  top: 359px;
+  left: 145px;
+  overflow: hidden;
+}
+.v93_115 {
+  width: 362px;
+  height: 420px;
+  background: rgba(217,217,217,1);
+  opacity: 1;
+  position: absolute;
+  top: 290px;
+  left: 584px;
+  overflow: hidden;
+}
+.v93_109 {
+  width: 284px;
+  height: 191px;
+  background: rgba(217,217,217,1);
+  background-image: url(/images/Rectangle\ 69.png);
+  opacity: 1;
+  position: absolute;
+  top: 359px;
+  left: 623px;
+  overflow: hidden;
+}
+.v93_122 {
+  width: 213px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 591px;
+  left: 186px;
+  font-family: Bodoni Moda;
+  font-weight: Bold;
+  font-size: 11px;
+  opacity: 1;
+  text-align: left;
+}
+.v93_123 {
+  width: 233px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 600px;
+  left: 650px;
+  font-family: Bodoni Moda;
+  font-weight: Bold;
+  font-size: 11px;
+  opacity: 1;
+  text-align: left;
+}
+.v93_110 {
+  width: 703px;
+  color: rgba(10,10,10,1);
+  position: absolute;
+  top: 120px;
+  left: 107px;
+  font-family: Bruno Ace;
+  font-weight: Regular;
+  font-size: 64px;
+  opacity: 1;
+  text-align: left;
+}
+.v93_116 {
+  width: 362px;
+  height: 420px;
+  background: rgba(217,217,217,1);
+  opacity: 1;
+  position: absolute;
+  top: 769px;
+  left: 95px;
+  overflow: hidden;
+}
+.v93_126 {
+  width: 148px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 789px;
+  left: 207px;
+  font-family: Bodoni Moda;
+  font-weight: Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.v93_113 {
+  width: 284px;
+  height: 191px;
+  background: rgba(217,217,217,1);
+  background-image: url(/images/Rectangle\ 71.png);
+  opacity: 1;
+  position: absolute;
+  top: 835px;
+  left: 139px;
+  overflow: hidden;
+}
+.v93_117 {
+  width: 362px;
+  height: 420px;
+  background: rgba(217,217,217,1);
+  opacity: 1;
+  position: absolute;
+  top: 769px;
+  left: 578px;
+  overflow: hidden;
+}
+.v93_111 {
+  width: 284px;
+  height: 191px;
+  background: rgba(217,217,217,1);
+  background-image: url(/images/Rectangle\ 70.png);
+  opacity: 1;
+  position: absolute;
+  top: 835px;
+  left: 623px;
+  overflow: hidden;
+}
+.v93_129 {
+  width: 263px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 1069px;
+  left: 640px;
+  font-family: Bodoni Moda;
+  font-weight: Bold;
+  font-size: 11px;
+  opacity: 1;
+  text-align: left;
+}
+.v93_130 {
+  width: 311px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 789px;
+  left: 603px;
+  font-family: Bodoni Moda;
+  font-weight: Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.v93_125 {
+  width: 169px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 312px;
+  left: 699px;
+  font-family: Bodoni Moda;
+  font-weight: Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.v93_121 {
+  width: 72px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 312px;
+  left: 247px;
+  font-family: Bodoni Moda;
+  font-weight: Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.v93_128 {
+  width: 252px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 1056px;
+  left: 157px;
+  font-family: Bodoni Moda;
+  font-weight: Bold;
+  font-size: 11px;
+  opacity: 1;
+  text-align: left;
+}   
+.contact{
+  height: 500px;
+    width: 100%;
+   background-color: black;
+  position: absolute;
+  }
+  .con{
+    color: white;
+    margin-left: 300px;
+    margin-bottom: 30px;
+  }
+  
+  .contact .content{
+    display: flex;
+    width: 100%;
+    position: relative;
+    margin-top: -20px;
+  }
+  
+  .content .form{
+    width: 60%;
+    background-color: black;
+  }
+  
+  .content .image{
+    width: 140px;
+    height: 140px;
+    margin-left: 70px;
+  }
+  
+  .form form{
+    display: flex;
+    flex-direction: column;
+    margin-right: 2rem;
+    position: relative;
+  
+  }
+  
+  form input{
+    margin-bottom: 1rem;
+    display: block;
+    border: none;
+    height: 3rem;
+    border-radius: 5px;
+    padding-left: 1rem;
+  }
+  
+  form textarea{
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  
+  }
+  
+  ::placeholder{
+    color: rgb(53, 51, 51);
+    padding-left: 1rem;
+  }
